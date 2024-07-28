@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+.file-list {
+  flex: 1 1 200px;
+  margin-right: 20px;
+}
+
+.file-list h2 {
+  margin-bottom: 10px;
+}
+
+.file-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-list li {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.file-list li.selected {
+  background-color: #e0e0e0;
+}
+
+.editor-container {
+  flex: 3 1 600px;
+}
+
+.editor-container h2 {
+  margin-bottom: 10px;
+}
+
+.editor-container button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
